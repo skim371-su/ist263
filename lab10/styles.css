@@ -1,0 +1,135 @@
+body {
+    background-color: #F1F1F1;
+    color: #000000;
+}
+
+a {
+    color: #6b5a48;
+}
+
+h1, h2, h3 {
+    color: #38220f;
+}
+
+nav {
+    background-color: #967259;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #ece0d1;
+}
+
+nav a:hover {
+    background-color: #dbc1ac;
+    color: #000000;
+}
+
+.row1 {
+    display: flex;
+}
+
+.row1 .column1 {
+    flex: 1;
+}
+
+.row1 .column2 {
+    flex: 1;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2 .column3 {
+    flex: 1;
+}
+
+.row2 .column4 {
+    flex: 1;
+}
+
+.row1, .row2 {
+    background-color: #e7d8c9;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.row1, .row2 {
+    gap: 30px;
+}
+
+.row2 input[type="text"],
+.row2 input[type="email"],
+.row2 textarea,
+.row2 select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.row2 input[type="submit"] {
+    background-color: #634832;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row2 iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+.skillsheading {
+    text-align: center;
+}
+
+.skillsflex {
+    display: flex;
+}
+
+.skillstable {
+    flex-basis: 50%;
+}
+
+.skillsimage {
+    flex-basis: 50%;
+}
+
+.skillstable table {
+    margin: 0 auto;
+}
+
+.skillsimage {
+    text-align: center;
+}
+
+.evenrow {
+    background-color: #dbc1ac;
+}
+
+.bioimage {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    nav span {
+        display: none;
+    }
+}
