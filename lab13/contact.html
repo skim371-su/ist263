@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Chloe Kim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Skip to Content -->
+    <a href="#maincontent" class="skip-link">Skip to Content</a>
+
+    <!-- Navigation -->
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <span aria-hidden="true">|</span>
+        <a href="skills.html">Skills</a>
+        <span aria-hidden="true">|</span>
+        <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="maincontent">
+
+        <h1>Contact</h1>
+
+        <div class="row1">
+
+            <div class="column1">
+                <h2>School</h2>
+                <p>
+                    Yonsei University<br>
+                    Seoul, South Korea
+                </p>
+            </div>
+
+            <div class="column2">
+                <h2>Contact Info</h2>
+
+                <p>
+                    <a href="mailto:sunny0702.kim@gmail.com">
+                        sunny0702.kim@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://www.linkedin.com/in/seoyeon-kim72/">
+                        My LinkedIn Profile
+                    </a>
+                </p>
+
+                <p>
+                    <a href="https://www.linkedin.com/in/seoyeon-kim72/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Visit my LinkedIn profile (opens in a new tab)">
+                        <img src="../images/logo-sized.png"
+                             alt="LinkedIn logo">
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row2">
+
+            <div class="column3">
+
+                <h2>Contact Form</h2>
+
+                <form action="https://formspree.io/f/xeaoqqpa"
+                      method="post">
+
+                    <label for="name">Name:</label>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           autocomplete="name"
+                           required>
+
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason">
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              required></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
+            <div class="column4">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c988ea13e280f%3A0xb7b75243ec5a638e!2sYonsei%20University%2C%20Sinchon%20Campus!5e0!3m2!1sen!2sus!4v1789244607600!5m2!1sen!2sus"
+                    title="Google Map showing Yonsei University in Seoul, South Korea"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
